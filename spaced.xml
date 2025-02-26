@@ -5,18 +5,18 @@
   <remote name="github-lineage" fetch="https://github.com/LineageOS" />
 
   <!-- Device Trees -->
-  <project path="device/realme/spaced" name="android_device_realme_spaced" revision="aosp" remote="realme-mt6781-dev" />
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" revision="lineage-20" remote="github-lineage" />
+  <project path="device/realme/spaced" name="android_device_realme_spaced" revision="lineage-21" remote="realme-mt6781-dev" />
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" revision="lineage-21" remote="github-lineage" />
 
   <!-- Kernel Source -->
-  <project path="kernel/realme/mt6781" name="android_kernel_realme_mt6781" revision="thirteen" remote="realme-mt6781-dev" />
+  <project path="kernel/realme/mt6781" name="android_kernel_realme_mt6781" revision="lineage-21.0" remote="realme-mt6781-dev" />
 
   <!-- Vendor Blobs -->
-  <project path="vendor/realme/spaced" name="android_vendor_realme_spaced" revision="thirteen" remote="realme-mt6781-dev" />
+  <project path="vendor/realme/spaced" name="android_vendor_realme_spaced" revision="lineage-21" remote="realme-mt6781-dev" />
 
   <!-- Hardware Components -->
-  <project path="hardware/oplus" name="android_hardware_oplus" revision="lineage-20" remote="realme-mt6781-dev" />
-  <project path="hardware/mediatek" name="android_hardware_mediatek" revision="lineage-20" remote="realme-mt6781-dev" />
+  <project path="hardware/oplus" name="android_hardware_oplus" revision="android-14.5" remote="realme-mt6781-dev" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" revision="android-14.5" remote="realme-mt6781-dev" />
 
   <!-- Mediatek WLAN -->
   <project path="hardware/mediatek/wlan" name="android_hardware_mediatek_wlan" revision="lineage-20" remote="realme-mt6781-dev" />
