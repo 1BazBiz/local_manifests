@@ -5,14 +5,14 @@
   <remote name="github-lineage" fetch="https://github.com/LineageOS" />
 
   <!-- Device Trees -->
-  <project path="device/realme/spaced" name="android_device_realme_spaced" revision="lineage-21" remote="realme-mt6781-dev" />
+  <project path="device/realme/spaced" name="android_device_realme_spaced" revision="lineage-22.2" remote="realme-mt6781-dev" />
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" revision="lineage-21" remote="github-lineage" />
 
   <!-- Kernel Source -->
-  <project path="kernel/realme/mt6781" name="android_kernel_realme_mt6781" revision="lineage-21.0" remote="realme-mt6781-dev" />
+  <project path="kernel/realme/mt6781" name="kernel_realme_mt6781_Nebula" revision="rui-4.0" remote="realme-mt6781-dev" />
 
   <!-- Vendor Blobs -->
-  <project path="vendor/realme/spaced" name="android_vendor_realme_spaced" revision="lineage-21" remote="realme-mt6781-dev" />
+  <project path="vendor/realme/spaced" name="android_vendor_realme_spaced" revision="lineage-22.2" remote="realme-mt6781-dev" />
 
   <!-- Hardware Components -->
   <project path="hardware/oplus" name="android_hardware_oplus" revision="android-14.5" remote="realme-mt6781-dev" />
